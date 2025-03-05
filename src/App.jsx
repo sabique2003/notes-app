@@ -1,6 +1,6 @@
 import './App.css';
 import { useState, useEffect } from 'react';
-import { AddnoteApi, GetnoteApi, DeleteNoteApi, EditNoteApi } from './Services/Allapis';
+import { AddnoteApi, GetnoteApi, DeleteNoteApi, EditNoteApi } from './Services/allApis';
 
 function App() {
   const [notes, setNotes] = useState('');
